@@ -1,0 +1,233 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap'); */
+
+* { margin: 0;}
+html { scroll-behavior: smooth;}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* NAV */
+nav {
+    font-size: 20px;
+}
+
+#navegacion{
+    margin-right: 5px;
+}
+main {
+    font-family: 'DynaPuff', cursive;
+}
+
+/*HOME PAGE */
+.principal {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #e6e3e3e5, #ffffffe8, #dadada, #f7f7f7);
+    background-size: 400% 400%;
+    display: flex;
+    animation: backgroundTransition 8s ease-in-out infinite;
+}
+@keyframes backgroundTransition {
+    0% {
+        background-position:  0% 80%;
+     }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90% ;
+    }
+}
+.perfil{
+    padding: 100px;
+    width: auto;
+    margin-top: 100px;
+}
+
+.containerr{
+    background-image: url('download/bg.png');
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+@keyframes pisca {
+    0%, 100%{
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+
+}
+
+.card-principal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-text-principal {
+    width: 100%;
+    letter-spacing: 1px;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+}
+
+.card-wrapper-principal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-text-principal p {
+    text-align: center;
+    font-style: italic;
+    color: #004265;
+    font-size: 28px;
+}
+.card-text-principal h1 {
+    text-align: center;
+    color: #96bc33;
+    font-size: 30px;
+}
+
+button{
+    padding: 10px;
+    border: 1px none;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #96bc33;
+    font-size: 20px;
+    color: white;
+    
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: #004265;
+    color: white;
+
+}
+
+
+
+
+#portafolio {
+    height: 800px;
+    width: 100%;
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(-45deg, #b1b1b1e5, #ffffffe8, #b1b1b1e5, #ffffffe8);
+    background-size: 400% 400%;
+    display: flex;
+    animation: backgroundTransition 8s ease-in-out infinite;
+}
+@keyframes backgroundTransition {
+    0% {
+        background-position:  0% 80%;
+     }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90% ;
+    }
+}
+
+#contacto {
+    height: 400px;
+    width: 100%;
+    background: #212529;
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+
+
+/* cards*/
+
+
+
+.cardcolor {
+    width: 400px;
+    margin-right: 5px;
+    margin-top: 20px;
+    background: #004265;
+}
+.cardcolor2 {
+    background: radial-gradient(#95bc33, #004265 70%);
+}
+
+.sobre-nosotros{
+    color: rgb(97, 89, 89);
+    padding: 10%;
+    
+}
+
+
+
+
+
+
+
+/*footer*/ 
+
+
+
+/* responsive */
+@media (max-width: 800px) {
+    .social-media {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        margin-top: 0;
+    }
+    .cardd-container {
+        flex-direction: column;
+    }
+
+   
+
+    .cardd {
+        height: 250px;
+        width: 250px;
+    }
+    .cardd-text {
+        width: 90%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+   
+}

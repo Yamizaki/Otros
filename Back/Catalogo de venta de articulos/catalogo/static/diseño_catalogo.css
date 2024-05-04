@@ -1,0 +1,49 @@
+body{
+    /* background-image: url("../media/Fondo\ ropa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.7) 0%, rgba(252,70,107,0.5) 100%);
+    margin: 0px 0px 0px 0px; 
+   
+}
+.contenedor{
+    
+    display: flex;
+    line-height:0px;
+    flex-wrap: wrap;
+    justify-content:  space-around;
+}
+
+img{
+    height:200px;
+    
+    
+}
+
+.tarjeta{
+    margin-top: 5%;
+    border: solid black;
+    background-color: rgba(206, 155, 211, 0.92);
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 70%;
+}
+
+li{
+    margin-left: 5px;
+    list-style: none;
+    line-height: 17px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.linkwa{
+    text-decoration: none;
+    color: black;
+}
+
+.linkwa :visited{
+    text-decoration: none;
+}

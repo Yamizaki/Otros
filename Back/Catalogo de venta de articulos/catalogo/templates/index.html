@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2V</title>
+    <link rel="stylesheet" href="{% static "diseño.css" %}">
+</head>
+<body>
+<!-- Utilizaremos una barra de navegacion para todas las paginas     -->
+
+    <nav class="superior">
+        <ul>
+            <li><a href="#"> INICIO </a></li>
+            <li><a href="http://127.0.0.1:8000/catalogo/"> CATALOGO </a></li>
+            <li><a href="#"> CONTACTO </a></li>
+        </ul>
+    </nav>
+
+<!-- Encabezado, nombre de marca, logo, frase, redireccion al catalogo -->
+
+    <header>
+        <img src="{% static "images/LOGO EMPRESA.png" %}" alt="">
+        <h2>¡Somos Fs!</h2>
+        <p>Una tienda Online dedicada a la venta de calidad</p>
+    </header>   
+
+    <div class="contenedor">
+        <h3> <a href="http://127.0.0.1:8000/catalogo/"> Ir a catálogo </a></h3>
+    </div>
+    
+    
+</body>
+</html>

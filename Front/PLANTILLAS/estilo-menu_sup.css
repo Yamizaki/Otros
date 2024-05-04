@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(191, 203, 209, 0.568);
+}
+
+/* barra de navegacion superior, by: chat-gpt3 */
+
+header {
+    background-image: url(./IMG_7694.JPG);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 80vmin;
+}
+nav {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    align-items: center;
+    padding: .5% .5% .5% .5%;
+
+/* efecto caja sombreada     */
+    -webkit-transition: 1s linear;
+    transition: .5s linear;
+    border: 0.5px solid;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: black;
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    background-color: #b4ab9f;
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+
+
+.Titulo{
+    margin-top: 15vh;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+}
+.Titulo img{
+    border-radius: 50%;
+    width: 20vh;
+}
+
+.Titulo h1{
+    font-size: 100px;
+    color: rgb(247, 247, 247);
+}
+.Titulo h3{
+    font-size: 40px;  
+    color: rgb(253, 253, 253);
+}
+/* codigo zona principal */
+
+main{
+    text-align: center;
+    font-size: 150%;
+}
+.contenedor{
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.contenedor img{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 2%;
+    box-shadow: 15px 16px 13px -5px rgba(0,0,0,0.61);
+    -webkit-caja-sombra: 15px 16px 13px -5px rgba(0,0,0,0.61);
+    -moz-caja-sombra: 15px 16px 13px -5px rgba(0,0,0,0.61);
+}
+
+.tarjeta{
+    margin-top: 2%;
+    background-color: rgb(185, 199, 201);
+    border-radius: 10px;
+}
+div .tarjeta h1{
+    font-size: 100%;
+    max-width: 350px;
+}
+div .tarjeta h3{
+    margin-left: 5%;
+    text-align: left;
+    max-width: 350px;
+    line-height: 5px;
+    font-size:100%;
+}
+
+div .tarjeta span{
+    margin-top: 5px;
+    background-color: rgb(109, 202, 245);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+
+
+/* footer, by: chat-gpt3 */
+footer {
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 150px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+footer a {
+    padding: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: black;
+    background-color:white;
+    
+    border-radius: 10px;
+}

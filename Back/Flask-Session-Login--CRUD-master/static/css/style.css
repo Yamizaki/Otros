@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Outfit:wght@300&display=swap');
+body{
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vb;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.contenedor{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    position:absolute;
+    width: 100px;
+    transform: translate(-50%, -60%);
+
+}
+
+.formulario{
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    height: 70vh;
+    position: relative;
+    background-color: rgba(255, 244, 223, 0.527);
+    transform: translate(0%, 20%);
+}
+
+h4{
+    font-size: 18px;
+}
+
+main {
+    position: relative;
+  }
+  
+.centered {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 244, 223, 0.527);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+}
+.btnfix{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.afix{
+    color: aliceblue;
+}
+

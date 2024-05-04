@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2V</title>
+    <link rel="stylesheet" href="{% static "diseño_catalogo.css" %}">
+</head>
+<body>
+    <div class="contenedor">
+
+<!-- En esta parte se van agregando los articulos automaticanmente desde el CRUD de Django -->
+       
+        {% for i in producto  %}
+        <a href="https://api.whatsapp.com/send/?phone=51914853921&text&type=phone_number&app_absent=0" class="linkwa" target="_blank">
+        <div class="tarjeta">
+                <img src= "{{ i.foto.url}}"  alt="">
+                <h1>{{i.nombre}}</h1>
+                <div class="descripcion">
+                    <li>Talla: {{i.talla}} </li>
+                    <li>Color: {{i.color}} </li>
+                    <li>Estado:{{i.estado}}</li>
+                </div>
+        </div>
+        </a>
+        {% endfor %}
+
+
+
+
+    </div>
+</body>
+</html>
